@@ -1,0 +1,11 @@
+from math import *
+print("Введите координаты точки а: ")
+xa = int(input())
+ya = int(input())
+print("Введите координаты точки b: ")
+xb = int(input())
+yb = int(input())
+dx = abs(xa-xb)
+dy = abs(ya-yb)
+dlina = (dx**2 + dy**2)**0.5
+print("Расстояние между точками равно", dlina)
