@@ -1,0 +1,8 @@
+a = [1, 1]
+b = 2
+for i in range (1, 28):
+    new = a[-1]+a[-2]
+    b += new
+    a.append(new)
+print (a)
+print ("Сумма первых 30 чисел Фибоначчи равна", b)
