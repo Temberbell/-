@@ -1,0 +1,22 @@
+ #include <iostream>
+using namespace std;
+
+int main()
+{
+	
+	int pro=13;
+	
+	for (int i=30; i<100; i++) {
+		
+		if ((i%2==1) and (i%13==0))
+		{
+		
+		pro *= i;
+		
+		
+		}
+		
+	}
+	
+	cout << "Произведение чисел равно " << pro << endl;
+}
