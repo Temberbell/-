@@ -1,0 +1,7 @@
+sum=0
+for i in range (51):
+    if ((i%5==0) or (i%6==0)):
+        print("i =", i)
+        sum += i
+        print("sum =", sum)
+print("Итоговая сумма =", sum)
