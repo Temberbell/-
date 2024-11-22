@@ -1,0 +1,7 @@
+d = 1
+sm = 2.5
+while True:
+  print(d, "дюйм(а) =", sm, "см.")
+  d += 1
+  sm += 2.5
+  if d == 21: break
