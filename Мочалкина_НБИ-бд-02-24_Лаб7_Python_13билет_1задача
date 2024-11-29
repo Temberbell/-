@@ -1,0 +1,13 @@
+A = [1, 2, 32, 4, 0, 8, 58, 4, 7, 62]
+chet = []
+nech = []
+
+N = len(A)
+
+for i in range (0, N-1, 2):
+  chet.append(A[i])
+for i in range(1, N, 2):
+  nech.append(A[i])
+  
+print("Элементы с чётными номерами", chet)
+print("Элементы с нечётными номерами", nech)
